@@ -2,6 +2,31 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Tech Stack
+
+- **Frontend Framework**: React.js
+- **State Management**: Redux Toolkit
+- **Styling**: CSS Modules
+- **API Integration**: Axios
+- **Build Tool**: Create React App
+- **Version Control**: Git
+
+## Architecture
+
+The application follows a modern React architecture with the following key components:
+
+### Frontend Structure
+- **Components**: Reusable UI components organized in a modular structure
+- **Redux Store**: Centralized state management for handling cryptocurrency data
+- **API Services**: Separate service layer for handling API calls
+- **Utils**: Helper functions and constants
+
+### Key Features
+- Real-time cryptocurrency price tracking
+- Responsive design for multiple device sizes
+- Efficient state management for data persistence
+- Clean and maintainable code structure
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -31,14 +56,15 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+# Demo Video
 Watch the demo video: https://drive.google.com/file/d/1tIU8YrbRz8VXPywT6dgirEwWYQCQhQI-/view?usp=sharing
 
 ## Learn More
@@ -46,3 +72,4 @@ Watch the demo video: https://drive.google.com/file/d/1tIU8YrbRz8VXPywT6dgirEwWY
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
